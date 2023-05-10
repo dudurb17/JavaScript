@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      h1 {
+        font: Arial;
+      }
+      #dtPessoas {
+        font: 14px Verdana;
+      }
+      table tr td {
+        width: 100px;
+        margin: auto;
+      }
+      #button {
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="dtPessoas">
+      <table id="tbPessoas" border="1px">
+        <thead>
+          <tr>
+            <td>Código</td>
+            <td>Nome</td>
+            <td>idade</td>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <h1>Somente pessoas obrigadas a votar:</h1>
+    <input type="button" value="Filtrar" onclick="filtro()" id="button" />
+
+    <div id="dtPessoas">
+      <table id="tfPessoas" border="1px">
+        <thead>
+          <tr>
+            <td>Código</td>
+            <td>Nome</td>
+            <td>idade</td>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <script src="srcipt.js"></script>
+  </body>
+</html>
