@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        text-align: center;
+      }
+      table {
+        margin: auto;
+      }
+      #buttom {
+        margin: auto;
+      }
+    </style>
+    <title>Calculando o IMC</title>
+  </head>
+  <body>
+    <h1>Calculando o IMC</h1>
+    <i>informe o seu nome.</i
+    ><input type="text" name="nome" id="nome" placeholder="Ex:Eduardo" />
+    <br />
+    <br />
+    <i>Informe a sua idade.</i
+    ><input type="number" name="idade" id="idade" placeholder="Ex:17" />
+    <br />
+    <br />
+    <i>Informe a sua altura.</i
+    ><input type="number" name="altura" id="altura" placeholder="Ex:1.80" />
+    <br />
+    <br />
+    <i>Informe o seu peso.</i
+    ><input type="number" name="peso" id="peso" placeholder="Ex:60" /><br />
+    <br />
+    <input type="button" value="Calcular" onclick="calcular()" id="buttom" />
+    <br />
+    <br />
+    <table border="1">
+      <tr>
+        <td>Nome</td>
+        <td>Idade</td>
+        <td>Altura</td>
+        <td>Peso</td>
+        <td>IMC</td>
+      </tr>
+      <tr>
+        <td id="nomeT"></td>
+        <td id="idadeT"></td>
+        <td id="alturaT"></td>
+        <td id="pesoT"></td>
+        <td id="imc"></td>
+      </tr>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
